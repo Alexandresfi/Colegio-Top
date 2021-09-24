@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFFFFF;
+    
+}
+
+body{
+    color: #670017;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -12,6 +16,7 @@ header{
     /* background-attachment: fixed; */
     background-size: 100vw;
     height: 85vh;
+    color: #FFFFFF;
 
     font-style: normal;
     font-weight: 800;
@@ -22,7 +27,7 @@ header{
 
 li{list-style: none;}
 
-a{text-decoration: none;}
+a{text-decoration: none;  color: #FFFFFF;}
 
 header nav{
     display: flex;
@@ -70,6 +75,7 @@ header .title button{
     margin-top: 73px;
 
     background: #131313;
+    color: white;
     border-radius: 5px;
     font-weight: 600;
     font-size: 18px;
@@ -79,6 +85,7 @@ header .title button{
 .first{
 
     background: #670017;
+    color: white;
     text-align: center;
 
     font-family: 'Poppins', sans-serif;
@@ -136,4 +143,89 @@ header .title button{
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
+}
+
+.second{
+   
+    padding: 131px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.second h5{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.second h2{
+    font-size: 30px;
+    line-height: 49px;
+
+    margin: 17px auto 17px auto;
+}
+
+.second p{
+    width: 440px;
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+
+}
+
+.second button{
+    border: 3px solid #670017;
+    color: #670017;
+    border-radius: 60px;
+    width: 223px;
+    height: 61px;
+    margin-top: 61px;
+    font-weight: bold;
+    background-color: white;
+   
+}
+
+video{
+    background: linear-gradient(0deg, rgba(103, 0, 23, 0.3), rgba(103, 0, 23, 0.3)), linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+    border-radius: 100px;
+    width: 489.6px;
+    height: 337,5px;
+}
+
+.third{
+    background-color: rgba(103, 0, 23, 1);
+    color: white;
+    padding: 100px;
+}
+
+.third .title h1{
+    font-size: 50px;
+    line-height: 87px;
+    height: 87px;
+}
+
+.third .title{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.third .title .bord{
+    width: 608px;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 33px;
+    margin-top: 20px;
+}
+
+.third .title .normal{
+    width: 709px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
 }
