@@ -15,7 +15,7 @@ header{
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: 100vw;
-    height: 85vh;
+    height: 100vh;
     color: #FFFFFF;
 
     font-style: normal;
@@ -23,6 +23,7 @@ header{
     font-size: 15px;
     line-height: 22px;
     position: relative;
+    text-align: center;
 }
 
 li{list-style: none;}
@@ -35,36 +36,55 @@ header nav{
     justify-content: center;
 }
 
-header ul{display: flex;}
+header ul{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 37px 210px 37px 44px;
+}
 
-header ul li{margin: 35px 101px 194px 30px;}
+header ul .logo{
+    position: absolute;
+    top: 52px;
+    right: calc(50vw - 50px);
+}
 
-header .segunda li{margin: 35px 101px 194px 116px;}
+/* header ul li{margin: 35px 101px 194px 30px;} */
 
-header .logo{position: absolute; top: 3vh;}
+/* header .segunda li{margin: 35px 101px 194px 116px;} */
 
-header .title{text-align: center;}
+/* header .logo{position: absolute; top: 10vh; left: 95vh;} */
+
+header .title{
+    text-align: center;
+    margin-top: calc(50vh - 190px);
+
+}
 
 header .title div{
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 19px;
+    margin-bottom: 21px;
 }
 
 header .title h1{
     font-family: Proza Libre;
     font-style: normal;
     font-weight: normal;
-    font-size: 49px;
-    line-height: 74px;
+    font-size: 50px;
+    line-height: 68px;
+    margin-bottom: 25px;
 }
 
 header .title p{
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    line-height: 22px;
+    line-height: 20px;
 }
 
 header .title button{
@@ -81,6 +101,8 @@ header .title button{
     font-size: 18px;
     line-height: 25px;
 }
+
+header .arrow{margin-top: 17vh;}
 
 .first{
 
@@ -120,7 +142,7 @@ header .title button{
 
 .first nav ul li{margin-right: 17px;}
 
-.first nav ul .active{
+.first nav ul .active {
     border: 3px solid #FFFFFF;
     background-color: #670017;
     color: white;
@@ -209,9 +231,9 @@ video{
 
 .third .title{
     display: flex;
+    width: 90vw;
     justify-content: space-evenly;
     
-
 }
 
 .third .title .bord{
@@ -229,3 +251,64 @@ video{
     line-height: 25px;
     margin-top: 20px;
 }
+
+.third .title button{
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    width: 195px;
+    height: 61px;
+    margin: 58px 0 64px 0;
+    color: white;
+    background-color: #670017;
+}
+
+.containercarrosel ul{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    
+    margin-left: auto;
+    margin-right: -7.2vmin;
+    margin-right: -7.2vmax;
+}
+.containercarrosel ul li img{
+    margin-right: 50px;
+    height: 260px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.containercarrosel .button{
+    text-align: end;
+}
+
+.containercarrosel .button .left{
+    transform: rotate(180deg);
+    margin-right: 64px;
+}
+
+.containercarrosel .button button{
+    background-color: transparent;
+    outline: none;
+    border: none;   
+}
+
+.third .projetos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: justify;
+    align-items: center;
+    margin: 109px 0 63px 0;
+    
+}
+
+.third .projetos ul li{
+    margin-left: 76px;
+}
+
+.third ul li div img{
+    margin-bottom: 8px;
+}
+

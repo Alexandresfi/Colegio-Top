@@ -23,6 +23,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap"
         rel="stylesheet">
 
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
     <title>Top Sistema de Ensino</title>
 </head>
 
@@ -31,18 +36,27 @@
         <nav>
             <ul>
                 <li> <a href="#">O top</a> </li>
+
                 <li> <a href="#">Top Eventos</a> </li>
+
                 <li> <a href="#">Top Lembranças</a> </li>
+                
+                <li>
+                    <a href="#" class="logo">
+                        <img src="./assects/Logo - Branco 1.png">
+                    </a> 
+                </li>
+
+               <li>
+                   <a href="https://colegiotop.educlass.com.br/">Portal do Aluno</a>
+                </li>
+
+                <li>
+                    <a href="https://app.mangahigh.com/assignments">Mangahigh</a>
+                </li>
+
             </ul>
 
-            <div>
-                <a href="#" class="logo">Logo</a> </li>
-            </div>
-
-            <Ul class="segunda">
-                <li> <a href="https://colegiotop.educlass.com.br/">Portal do Aluno</a> </li>
-                <li> <a href="https://app.mangahigh.com/assignments">Mangahigh</a> </li>
-            </Ul>
         </nav>
 
         <div class="title">
@@ -52,12 +66,14 @@
 
             <p>Educação é passaporte para o futuro,pois o amanhã pertence àqueles que o preparam hoje</p>
 
-            <button>Inscreva-se</button>
+            <button onclick="aviso()">Inscreva-se</button>
         </div>
-
+        <a href="#down">
+            <img src="./assects/Array botoom.png" alt="arrow bootom" class="arrow animate__animated animate__backInDown animate__slow	2s"  >
+        </a>
     </header>
 
-    <section class="first">
+    <section class="first" id="down">
         <h1>CAPACITANDO A EDUCAÇÃO POR MEIO DA INOVAÇÃO</h1>
 
         <nav>
@@ -101,7 +117,7 @@
                definido e alinhado com o que a há de mais moderno
                 em educação no mundo inteiro.</p>
 
-            <button>MAIS SOBRE NÓS</button>
+            <button onclick="aviso()">MAIS SOBRE NÓS</button>
         </div>
 
         <video width="544px" controls>
@@ -126,20 +142,25 @@
                      que irão transformar suas vidas no mercado atual.
                 </p>
 
-                <button>Nossa História</button>
+                <button onclick="aviso()">Nossa História</button>
             </div>
 
         </div>
 
-        <div class="container carrosel">
+        <div class="containercarrosel">
             <ul>
-                <li> <img src="" alt="robótica"> </li>
-                <li> <img src="" alt=" biotecnologia"> </li>
-                <li> <img src="" alt="inter"> </li>
-                <li> <img src="" alt="Linguagens"> </li>
-                <li> <img src="" alt=""> </li>
-                <li> <img src="" alt=""> </li>
+                <!-- <li> <img src="./assects/Projetos/projeto Robótica.jpeg" alt="robótica" height="288px"> </li> -->
+                <li> <img src="./assects/Projetos/projeto Biológicas.jpg" alt=" biotecnologia"> </li>
+                <li> <img src="./assects/Projetos/projeto robotica girls.jpeg" alt="Linguagens"> </li>
+                <li> <img src="./assects/Projetos/Projeto Engenharias.jpeg" alt="Engenharias"> </li>
+                <li> <img src="./assects/Projetos/projeto.jpg" alt="projetos"> </li>
+                <!-- <li> <img src="./assects/Projetos/projeto Robótica02.jpg" alt="robotica 2" width="440px"> </li> -->
             </ul>
+
+            <div class="button">
+                <button id="left"> <img src="./assects/arrow rigth.png" alt="arrow left" class="left"> </button>
+                <button  onclick="rolarDireita()"> <img src="./assects/arrow rigth.png" alt="arrow rigth"> </button>
+            </div>
         </div>
 
         <div class="projetos">
@@ -147,7 +168,7 @@
                 <li>
                     <div>
                         <div>Robótica</div>
-                        <div class="line"></div>
+                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
                         <p>
                             O projeto de robótica educacional atua para despertar o uso tecnológico 
                             em sala de aula, como também no dia a dia do estudante, tendo em vista 
@@ -159,10 +180,10 @@
                 <li>
                     <div>
                         <div>Biotecnologia</div>
-                        <div class="line"></div>
+                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
                         <p>
-                            As atividades de Biotecnologia têm como objetivo introduzir o aluno 
-                            ao espaço de preparação do conhecimento científico... <span>Saiba mais</span>
+                            Há uma série de questões que envolvem aplicações da biotecnologia moderna 
+                            que afetam diretamente a vida dos cidadãos, e que estão ... <span>Saiba mais</span>
                         </p>
                     </div>
                 </li>
@@ -170,51 +191,60 @@
                 <li>
                     <div>
                         <div>InterArtes</div>
-                        <div class="line"></div>
+                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
                         <p>
                             É no Projeto Interartes que muitos alunos descobrem os seus potenciais para as artes,
-                            desenvolvem o olhar poético para o mundo e para a sociedade que integram, 
-                            melhoram a ... <span>Saiba mais</span>
+                             desenvolvem o olhar poético para o mundo e para a ... <span>Saiba mais</span>
                         </p>
                     </div>
                 </li>
+            </ul>
 
+            <ul>
                 <li>
                     <div>
                         <div>Engenharias</div>
-                        <div class="line"></div>
+                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
                         <p>
-                            Atividades práticas, nas quais os alunos aplicam conceitos da Matemática, Física e 
-                            Química para despertar ações como: CRIAR, RESOLVER, PROJETAR, CONSTRUIR, 
-                            EXECUTAR E  ... <span>Saiba mais</span>
+                            O objetivo principal desse projeto é mostrar aos alunos como as áreas de exatas e de engenharia
+                             podem estar inseridas em situações rotineiras por elas vivenciadas, e incentivá-la  ... <span>Saiba mais</span>
                         </p>
                     </div>
+
                 </li>
 
                 <li>
+
                     <div>
                         <div>Social</div>
-                        <div class="line"></div>
+                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
                         <p>
                             Aulas socioemocionais para formar alunos assertivos, responsáveis e que se autoconheçam
                         </p>
                     </div>
+
                 </li>
 
                 <li>
+
                     <div>
                         <div>Finanças</div>
-                        <div class="line"></div>
+                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
                         <p>
                             Promovemos o conhecimento sobre finanças, tanto com projetos, quanto aulas, para habilitar
                             o aluno ao novo modelo de mercado e se sobresair quando for independente.
                         </p>
                     </div>
-                </li>
 
+                </li>
             </ul>
         </div>
     </section>
+
+
+
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
