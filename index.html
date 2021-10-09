@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- COISAS VINDAS DE FORA -->
+    
+    <!-- TERMINA AQUI -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,16 +42,13 @@
             <ul>
                 <li> <a href="#">O top</a> </li>
 
-                <li> <a href="#">Top Eventos</a> </li>
-
                 <li> <a href="#">Top Lembranças</a> </li>
-                
-                <li>
+            </ul>
+
                     <a href="#" class="logo">
                         <img src="./assects/Logo - Branco 1.png">
                     </a> 
-                </li>
-
+            <ul>
                <li>
                    <a href="https://colegiotop.educlass.com.br/">Portal do Aluno</a>
                 </li>
@@ -120,9 +122,17 @@
             <button onclick="aviso()">MAIS SOBRE NÓS</button>
         </div>
 
-        <video width="544px" controls>
-            <source src="./video/Video - Top Sistema de Ensino.mp4" type="video/mp4">
-        </video>
+        <div class="ContainerVideo">
+        <video id="video" width="544px" muted poster="./assects/Projetos/projeto Robótica02.jpg">
+                    <source src="./video/Video - Top Sistema de Ensino.mp4" type="video/mp4">
+                    
+                </video>
+                <div class="video"> 
+                    <img src="./assects/play.png" alt="play" onclick="playA()">
+                </div>
+        </div>
+        
+
 
     </section>
 
@@ -148,7 +158,7 @@
         </div>
 
         <div class="containercarrosel">
-            <ul>
+            <ul id="aquikk">
                 <!-- <li> <img src="./assects/Projetos/projeto Robótica.jpeg" alt="robótica" height="288px"> </li> -->
                 <li> <img src="./assects/Projetos/projeto Biológicas.jpg" alt=" biotecnologia"> </li>
                 <li> <img src="./assects/Projetos/projeto robotica girls.jpeg" alt="Linguagens"> </li>
@@ -167,9 +177,9 @@
             <ul>
                 <li>
                     <div>
-                        <div>Robótica</div>
-                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
-                        <p>
+                        <div class="tituloPro">Robótica</div>
+                        <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
+                        <p class="text">
                             O projeto de robótica educacional atua para despertar o uso tecnológico 
                             em sala de aula, como também no dia a dia do estudante, tendo em vista 
                             que... <span>Saiba mais</span>
@@ -179,9 +189,9 @@
 
                 <li>
                     <div>
-                        <div>Biotecnologia</div>
-                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
-                        <p>
+                        <div class="tituloPro">Biotecnologia</div>
+                        <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
+                        <p class="text">
                             Há uma série de questões que envolvem aplicações da biotecnologia moderna 
                             que afetam diretamente a vida dos cidadãos, e que estão ... <span>Saiba mais</span>
                         </p>
@@ -190,9 +200,9 @@
 
                 <li>
                     <div>
-                        <div>InterArtes</div>
-                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
-                        <p>
+                        <div class="tituloPro">InterArtes</div>
+                        <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
+                        <p class="text">
                             É no Projeto Interartes que muitos alunos descobrem os seus potenciais para as artes,
                              desenvolvem o olhar poético para o mundo e para a ... <span>Saiba mais</span>
                         </p>
@@ -203,9 +213,9 @@
             <ul>
                 <li>
                     <div>
-                        <div>Engenharias</div>
-                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
-                        <p>
+                        <div class="tituloPro">Engenharias</div>
+                        <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
+                        <p class="text">
                             O objetivo principal desse projeto é mostrar aos alunos como as áreas de exatas e de engenharia
                              podem estar inseridas em situações rotineiras por elas vivenciadas, e incentivá-la  ... <span>Saiba mais</span>
                         </p>
@@ -216,9 +226,9 @@
                 <li>
 
                     <div>
-                        <div>Social</div>
-                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
-                        <p>
+                        <div class="tituloPro">Social</div>
+                        <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
+                        <p class="text">
                             Aulas socioemocionais para formar alunos assertivos, responsáveis e que se autoconheçam
                         </p>
                     </div>
@@ -228,9 +238,9 @@
                 <li>
 
                     <div>
-                        <div>Finanças</div>
-                        <div> <img src="./assects/line.png" alt="line" width="200px"> </div>
-                        <p>
+                        <div class="tituloPro">Finanças</div>
+                        <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
+                        <p class="text">
                             Promovemos o conhecimento sobre finanças, tanto com projetos, quanto aulas, para habilitar
                             o aluno ao novo modelo de mercado e se sobresair quando for independente.
                         </p>
@@ -241,6 +251,164 @@
         </div>
     </section>
 
+    <section class="events">
+        <!-- Primeiro -->
+        <div class="Title">
+            <h1>Top Eventos</h1>
+            <button> Todos </button>
+        </div>
+
+        <div class="eventos">
+            <div class="date">
+                <p class="dia">10</p>
+                <p class="mes">Maio 2021</p>
+                <p class="diaS">segunda</p>
+            </div>
+
+            <div class="descricao">
+                <img src="./assects/prova.png" alt="prova">
+                <p>Atividades avaliativas, as mesmas
+                    serão realizadas de forma presencial.
+                </p>
+            </div>
+
+            <div class="detalhes">
+
+                <p class="horas">12:00 PM</p>
+                <p class="classificacao">seminário</p>
+                <button>Detalhes</button>
+
+            </div>
+
+            <div class="textoCompleto">
+
+            </div>
+
+        </div>
+
+        <!-- Segundo -->
+
+        <div>
+            <div class="eventos">
+
+                <div class="date">
+                    <p class="dia">20</p>
+                    <p class="mes">Dez 2021</p>
+                    <p class="diaS">segunda</p>
+                </div>
+    
+                <div class="descricao">
+                    <img src="./assects/formandos.png" alt="prova">
+                    <p>Dia dos formandos, 
+                        discurso de uma vida mais independente.
+                    </p>
+                </div>
+    
+                <div class="detalhes">
+    
+                    <p class="horas">09:00 PM</p>
+                    <p class="classificacao">seminário</p>
+                    <button>Detalhes</button>
+    
+                </div>  
+    
+            </div>
+
+                <div class="textoCompleto">
+
+                </div>
+    
+        </div>
+        
+        <!-- Terceiro -->
+        
+        <div class="eventos">
+            <div class="date">
+                <p class="dia">11</p>
+                <p class="mes">Nov 2021</p>
+                <p class="diaS">Quinta</p>
+            </div>
+
+            <div class="descricao">
+                <img src="./assects/robotica.png" alt="prova">
+                <p>Iniciativa cientifica, robótica e projeto integrador.
+                </p>
+            </div>
+
+            <div class="detalhes">
+
+                <p class="horas">09:00 PM</p>
+                <p class="classificacao">seminário</p>
+                <button>Detalhes</button>
+
+            </div>
+
+            <div class="textoCompleto">
+                
+            </div>
+
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="superior">
+            <img src="./assects/Logo - Branco 1.png" alt="Logo">
+            <ul>
+                <li>
+                    <a href="https://api.whatsapp.com/send/?phone=5583991898145&app_absent=0">Fale conosco</a>
+                </li>
+
+                <li>
+                    <a href="">Sobre nós</a>
+                </li>
+
+                <li>
+                    <a href="https://www.google.com.br/maps/search/top+sistema+de+ensino/@-7.1535582,-34.8411737,17z/data=!3m1!4b1">Localização</a>
+                </li>
+
+                <li>
+                    <img src="./assects/linhaVertical.png" alt="linha vertical">
+                </li>
+
+                <li>
+                    Redes sociais
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/channel/UCdZvhgVC6XsFvkqveJ-6iZA">
+                        <img src="./assects/redes sociais/youtube.png" alt="youtube">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.facebook.com/topensino">
+                        <img src="./assects/redes sociais/facebook.png" alt="facebook">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/topsistemadeensino/">
+                        <img src="./assects/redes sociais/instagram.png" alt="instagram">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- <div class="line">
+            <img src="./assects/linhaHorizontal.png" alt="linha linha Horizontal">
+        </div> -->
+
+        <div class="inferior">
+            <p>Todos os direitos reservados por Top Sistema de Ensino</p>
+            <p>© 2021 Top Ensino</p>
+
+            <a id="dev" href="https://portfolioalexandrenascimento.netlify.app/">
+                Desenvolvedor: Alexandre Nascimento
+            </a>
+        </div>
+    </footer>
 
 
 

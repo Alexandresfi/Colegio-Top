@@ -13,10 +13,11 @@ body{
 header{
     background-image: url(/assects/school.png);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: 100vw;
-    height: 100vh;
+    background-size: cover;
     color: #FFFFFF;
+    height: 100vh;
+
+    background-color: blueviolet;
 
     font-style: normal;
     font-weight: 800;
@@ -40,15 +41,14 @@ header ul{
     width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 37px 210px 37px 44px;
+    
 }
 
-header ul .logo{
-    position: absolute;
-    top: 52px;
-    right: calc(50vw - 50px);
+header .logo{
+    margin-top: 60px;
+    
 }
 
 /* header ul li{margin: 35px 101px 194px 30px;} */
@@ -102,7 +102,7 @@ header .title button{
     line-height: 25px;
 }
 
-header .arrow{margin-top: 17vh;}
+header .arrow{margin-top: 10vh;}
 
 .first{
 
@@ -111,7 +111,7 @@ header .arrow{margin-top: 17vh;}
     text-align: center;
 
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
 
 }
 
@@ -129,7 +129,7 @@ header .arrow{margin-top: 17vh;}
     margin-bottom: 105px;
 }
 
-
+.first nav{margin: auto;}
 
 .first nav ul button{
     width: 199px;
@@ -149,9 +149,11 @@ header .arrow{margin-top: 17vh;}
 }
 
 .show{
+    margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 855px;
 }
 
 .first .show p{
@@ -173,6 +175,7 @@ header .arrow{margin-top: 17vh;}
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
 }
 
 .second h5{
@@ -217,6 +220,18 @@ video{
     height: 337,5px;
 }
 
+.video{
+    background: linear-gradient(0deg, rgba(103, 0, 23, 0.3), rgba(103, 0, 23, 0.3)), linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+    position: absolute;
+    height: 328px;
+    width: 489.6px;
+    top: 155px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .third{
     background-color: rgba(103, 0, 23, 1);
     color: white;
@@ -239,7 +254,7 @@ video{
 .third .title .bord{
     width: 608px;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 24px;
     line-height: 33px;
     margin-top: 20px;
 }
@@ -263,14 +278,11 @@ video{
 }
 
 .containercarrosel ul{
-    width: 1000px;
+    width: calc(100vw - 118px);
     display: flex;
     flex-direction: row;
-    overflow-x: hidden;
+    overflow: hidden;
     
-    margin-left: auto;
-    margin-right: -7.2vmin;
-    margin-right: -7.2vmax;
 }
 .containercarrosel ul li img{
     margin-right: 50px;
@@ -281,11 +293,13 @@ video{
 
 .containercarrosel .button{
     text-align: end;
+    margin-top: 45px;
 }
 
 .containercarrosel .button .left{
     transform: rotate(180deg);
     margin-right: 64px;
+    
 }
 
 .containercarrosel .button button{
@@ -294,21 +308,224 @@ video{
     border: none;   
 }
 
+.third .projetos .tituloPro{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.third .projetos .text{
+    width: 280px;
+}
+
+.third .projetos img{
+    margin: 39px 0 8px 0;
+}
+
 .third .projetos ul{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: end;
     text-align: justify;
-    align-items: center;
+    align-items:baseline;
     margin: 109px 0 63px 0;
     
 }
 
 .third .projetos ul li{
-    margin-left: 76px;
+    margin-right: 76px;
 }
 
 .third ul li div img{
     margin-bottom: 8px;
 }
+
+.events{
+
+    padding: 110px 186px 110px 186px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+}
+
+.events .Title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    width: 1062px;
+    margin: auto;
+}
+
+.events .Title h1{
+    font-size: 64px;
+    line-height: 87px;
+}
+
+.events .Title button{
+    width: 125px;
+    height: 51px;
+    border: 2px solid #3E3E3E;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.events .eventos{
+    height: 272px;
+    border: 2px solid #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 47px auto 0 auto;
+    width: 1062px;
+
+}
+
+.events .eventos .descricao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 25px 0 14px; 
+    
+}
+
+
+.events .descricao p{
+    width: 318px;
+    text-align: left;
+}
+
+.events .eventos img{
+    width: 225px;
+    height: 146px;
+    background-color: blueviolet;
+    padding: 1px;
+}
+
+.events .eventos .date{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    
+}
+
+.events .eventos .date .dia{
+    
+    color: #670017;
+    text-align: center;
+    font-size: 64px;
+    line-height: 87px;
+}
+
+.events .eventos .date .mes{
+    
+    font-size: 28px;
+    line-height: 38px;
+    text-align: right;
+}
+
+.events .eventos .date .diaS{
+    text-align: right;   
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+.events .eventos .descricao p{
+    width: 318px;
+    height: 99px;
+    margin-left: 31px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.events .eventos .detalhes{text-align: center;}
+
+.events .eventos .detalhes .horas{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.events .eventos .detalhes .classificacao{
+    
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    
+}
+
+.events .eventos .detalhes button{
+    width: 125px;
+    height: 51px;
+    border: 2px solid #3E3E3E;
+    border-radius: 100px;
+    margin-top: 37px;
+    margin-right: 42px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+footer{
+    background: #670017;
+    color: white;
+    
+    
+}
+
+footer .superior image {
+    width: 94px;
+    height: 63px;
+    
+}
+
+footer .superior{
+    height: 186px;
+    border-bottom: white solid 2px;
+    /* width: 98.79vw; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 64px 87px 59px 98px;
+}
+
+footer .superior ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+ 
+}
+
+footer .inferior{
+    
+    padding: 45px 0 61px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer .inferior p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer .inferior #dev{
+    text-align: end;
+    padding-left: 82vw;
+    font-size: small;   
+    
+}
+
+
 

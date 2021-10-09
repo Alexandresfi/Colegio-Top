@@ -1,7 +1,7 @@
 const carrosel = document.getElementsByClassName("containercarrosel")[0];
 
 function rolarDireita(){
-    console.log(carrosel.offsetWidth)
+    
     carrosel.scrollLeft += carrosel.offsetWidth;
     carrosel.innerHTML = `<ul class="animate__animated animate__slideInRight"> 
                                 <li> <img src="./assects/Projetos/Projeto Engenharias.jpeg" alt="Engenharias"> </li>
@@ -29,6 +29,23 @@ function rolarEsquerda (){
     `;
 }
 
+const Video = document.getElementById("video")
+const iMageVideo = document.getElementsByClassName("video")[0]
+
+function playA(){
+
+    Video.play(); 
+    console.log(iMageVideo)
+    
+
+    if(!(Video.paused)){
+        iMageVideo.style.display = "none"
+    }else{
+        iMageVideo.style.display = "block"
+    }
+}
+
 function aviso (){
     alert("Estamos em construção")
 }
+
