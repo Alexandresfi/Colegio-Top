@@ -17,8 +17,6 @@ header{
     color: #FFFFFF;
     height: 100vh;
 
-    background-color: blueviolet;
-
     font-style: normal;
     font-weight: 800;
     font-size: 15px;
@@ -399,8 +397,7 @@ video{
 .events .eventos img{
     width: 225px;
     height: 146px;
-    background-color: blueviolet;
-    padding: 1px;
+    
 }
 
 .events .eventos .date{
