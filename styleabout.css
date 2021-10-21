@@ -39,6 +39,7 @@ header .arrow{
     background-color: #670017;
     height: 830px;
     position: relative;
+    width: 100%;
     /* display: flex; */
 }
 
@@ -264,7 +265,6 @@ header .arrow{
 
 .educacao li{
     padding: 23px auto auto 32px;
-    height: 73px;
 }
 
 .educacao li .linha{
@@ -279,13 +279,13 @@ header .arrow{
     align-items: center;
 }
 
-.educacao .teste p{
+.educacao .teste .Click{
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
-
+    cursor: pointer;
 }
 
 .educacao .teste .numeros{
@@ -299,7 +299,13 @@ header .arrow{
     
 }
 
-.educacao ul li .detalhes{
+.educacao ul li .Detalhes{
     width: 700px;
     display: none;
+    height: 213px;
+    margin: 19px auto 20px auto;
+}
+
+.educacao ul li .Detalhes span{
+    font-weight: bold;
 }

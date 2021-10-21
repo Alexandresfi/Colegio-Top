@@ -1,0 +1,40 @@
+body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+header{
+    background-image: url(./assects/Top\ Lembranças/capa.png);
+}
+
+.album{
+    width: 876px;
+    height: 648px;
+    margin: 49px auto 193px auto;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #3E3E3E;
+}
+
+.album h1{
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0px 30px auto 55px;
+    padding-top: 60px;
+}
+
+.album .lineUm, .album .lineDois{
+    display: flex;
+    justify-content:left;
+    margin-left: 30px;
+    
+}
+
+.album a{
+    margin: 30px 20px 26px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3E3E3E;
+}

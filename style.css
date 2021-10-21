@@ -85,7 +85,7 @@ header .title p{
     line-height: 20px;
 }
 
-header .title button{
+header .title button, header .title button a{
 
     width: 237px;
     height: 51px;
@@ -161,11 +161,18 @@ header .arrow{margin-top: 10vh;}
     padding: 60px 20px;
 }
 
-.first .show p span{
+.first .show p a{
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
+
+    display: flex;
+    align-items: center;
 }
+
+.first .show p a img{margin-left: 20px;}
+
+.first .show .imgPri{border: 5px solid white;}
 
 .second{
    
@@ -210,6 +217,8 @@ header .arrow{margin-top: 10vh;}
     background-color: white;
    
 }
+
+.second button a{color: #670017;}
 
 video{
     background: linear-gradient(0deg, rgba(103, 0, 23, 0.3), rgba(103, 0, 23, 0.3)), linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
@@ -281,9 +290,10 @@ video{
     flex-direction: row;
     overflow: hidden;
     
+    
 }
 .containercarrosel ul li img{
-    margin-right: 50px;
+    margin-right: 40px;
     height: 260px;
     width: 400px;
     object-fit: cover;
@@ -306,14 +316,22 @@ video{
     border: none;   
 }
 
+.third .projetos{
+    margin-left: 1010px;
+}
+
 .third .projetos .tituloPro{
     font-weight: 600;
     font-size: 36px;
     line-height: 49px;
 }
 
-.third .projetos .text{
-    width: 280px;
+.third .projetos .text{width: 280px;}
+
+
+.third .projetos .saiba{
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .third .projetos img{
@@ -323,7 +341,7 @@ video{
 .third .projetos ul{
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: right;
     text-align: justify;
     align-items:baseline;
     margin: 109px 0 63px 0;
@@ -339,12 +357,13 @@ video{
 }
 
 .events{
-
+    height: 1200px;
     padding: 110px 186px 110px 186px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     color: black;
+    overflow: hidden;
 }
 
 .events .Title{
@@ -371,12 +390,14 @@ video{
 
 .events .eventos{
     height: 272px;
+    width: 1062px;
     border: 2px solid #CCCCCC;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 47px auto 0 auto;
-    width: 1062px;
+    
 
 }
 
@@ -385,7 +406,11 @@ video{
     flex-direction: row;
     justify-content: center;
     margin: 0 25px 0 14px; 
-    
+}
+
+.events .eventos .descricao img{
+    width: 225px;
+    height: 146px;
 }
 
 
@@ -466,6 +491,11 @@ video{
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
+}
+
+.events .textoCompleto{
+    display: none;
+    margin-left: 30px
 }
 
 footer{

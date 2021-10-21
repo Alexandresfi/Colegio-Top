@@ -68,7 +68,9 @@
 
             <p>Educação é passaporte para o futuro,pois o amanhã pertence àqueles que o preparam hoje</p>
 
-            <button onclick="aviso()">Inscreva-se</button>
+            <button>
+                <a href="https://api.whatsapp.com/send/?phone=5583991898145&app_absent=0"> Inscreva-se  </a>
+            </button>
         </div>
         <a href="#down">
             <img src="./assects/Array botoom.png" alt="arrow bootom" class="arrow animate__animated animate__backInDown animate__slow	2s"  >
@@ -80,10 +82,10 @@
 
         <nav>
             <ul>
-                <li> <button class="active"> MISSÃO </button> </li>
-                <li> <button> VISÃO </button> </li>
-                <li> <button> VALORES </button> </li>
-                <li> <button> ANUNCIOS </button> </li>
+                <li> <button class="Missao active" onclick="missao()"> MISSÃO </button> </li>
+                <li> <button class="Visao" onclick="visao()"> VISÃO </button> </li>
+                <li> <button class="Valores botaoFirst" onclick="valores()"> VALORES </button> </li>
+                <li> <button class="Anuncios botaoFirst" onclick="anuncios()"> ANUNCIOS </button> </li>
             </ul>
         </nav>
 
@@ -91,7 +93,7 @@
 
             <figure>
                 <img src="./assects/alunos3Ano.png" alt="alnos do 3º ano">
-                <figcaption>Alunos do 3 ano</figcaption>
+                <figcaption>Alunos(as) do 3 ano</figcaption>
             </figure>
 
             <p>Visamos abordar a educação de forma ampla, envolvendo não somente a transmissão de conhecimento, mas
@@ -99,7 +101,7 @@
                 as habilidades sociais,
                 emocionais e comportamentais, além de todo o contexto da vida dos alunos.
                 <br> <br><br>
-                <span>Ler mais <img src="./assects/arrow rigth.png" alt="arrow rigth"> </span>
+                <a href="./sobre.html">Ler mais <img src="./assects/arrow rigth.png" alt="arrow rigth"> </a>
             </p>
             
         </div>
@@ -119,7 +121,9 @@
                definido e alinhado com o que a há de mais moderno
                 em educação no mundo inteiro.</p>
 
-            <button onclick="aviso()">MAIS SOBRE NÓS</button>
+            <button>
+                <a href="./sobre.html">MAIS SOBRE NÓS</a>
+            </button>
         </div>
 
         <div class="ContainerVideo">
@@ -152,23 +156,23 @@
                      que irão transformar suas vidas no mercado atual.
                 </p>
 
-                <button onclick="aviso()">Nossa História</button>
+                <button>
+                    <a href="./sobre.html">Nossa História</a>
+                </button>
             </div>
 
         </div>
 
         <div class="containercarrosel">
             <ul id="aquikk">
-                <!-- <li> <img src="./assects/Projetos/projeto Robótica.jpeg" alt="robótica" height="288px"> </li> -->
-                <li> <img src="./assects/Projetos/projeto Biológicas.jpg" alt=" biotecnologia"> </li>
-                <li> <img src="./assects/Projetos/projeto robotica girls.jpeg" alt="Linguagens"> </li>
+                <li> <img class="ultima" src="./assects/Projetos/projeto Biológicas.jpg" alt=" biotecnologia"> </li>
+                <li> <img class="ultima" src="./assects/Projetos/projeto robotica girls.jpeg" alt="Linguagens"> </li>
                 <li> <img src="./assects/Projetos/Projeto Engenharias.jpeg" alt="Engenharias"> </li>
-                <li> <img src="./assects/Projetos/projeto.jpg" alt="projetos"> </li>
-                <!-- <li> <img src="./assects/Projetos/projeto Robótica02.jpg" alt="robotica 2" width="440px"> </li> -->
+                <li> <img src="./assects/Projetos/projeto.jpg" alt="projetos" id="ultima"> </li>
             </ul>
 
             <div class="button">
-                <button id="left"> <img src="./assects/arrow rigth.png" alt="arrow left" class="left"> </button>
+                <button id="left" onclick="rolarEsquerda()"> <img src="./assects/arrow rigth.png" alt="arrow left" class="left"> </button>
                 <button  onclick="rolarDireita()"> <img src="./assects/arrow rigth.png" alt="arrow rigth"> </button>
             </div>
         </div>
@@ -182,7 +186,7 @@
                         <p class="text">
                             O projeto de robótica educacional atua para despertar o uso tecnológico 
                             em sala de aula, como também no dia a dia do estudante, tendo em vista 
-                            que... <span>Saiba mais</span>
+                            que <span class="mostrarResto">...</span> <span class="saiba">Saiba mais</span>
                         </p>
                     </div>
                 </li>
@@ -193,7 +197,7 @@
                         <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
                         <p class="text">
                             Há uma série de questões que envolvem aplicações da biotecnologia moderna 
-                            que afetam diretamente a vida dos cidadãos, e que estão ... <span>Saiba mais</span>
+                            que afetam diretamente a vida dos cidadãos, e que estão <span class="mostrarResto">...</span> <span class="saiba">Saiba mais</span>
                         </p>
                     </div>
                 </li>
@@ -204,7 +208,7 @@
                         <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
                         <p class="text">
                             É no Projeto Interartes que muitos alunos descobrem os seus potenciais para as artes,
-                             desenvolvem o olhar poético para o mundo e para a ... <span>Saiba mais</span>
+                             desenvolvem o olhar poético para o mundo e para a <span class="mostrarResto">...</span> <span class="saiba">Saiba mais</span>
                         </p>
                     </div>
                 </li>
@@ -217,7 +221,7 @@
                         <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
                         <p class="text">
                             O objetivo principal desse projeto é mostrar aos alunos como as áreas de exatas e de engenharia
-                             podem estar inseridas em situações rotineiras por elas vivenciadas, e incentivá-la  ... <span>Saiba mais</span>
+                             podem estar inseridas em situações rotineiras por elas vivenciadas, e incentivá-la  <span class="mostrarResto">...</span> <span class="saiba">Saiba mais</span>
                         </p>
                     </div>
 
@@ -255,37 +259,41 @@
         <!-- Primeiro -->
         <div class="Title">
             <h1>Top Eventos</h1>
-            <button> Todos </button>
+            <button id="Todos"> Todos </button>
         </div>
 
-        <div class="eventos">
-            <div class="date">
-                <p class="dia">10</p>
-                <p class="mes">Maio 2021</p>
-                <p class="diaS">segunda</p>
+            <div class="eventos">
+                <div class="date">
+                    <p class="dia">04</p>
+                    <p class="mes">Out 2021</p>
+                    <p class="diaS">segunda</p>
+                </div>
+
+                <div class="descricao">
+                    <img src="./assects/Top Lembranças/2021/semana da criança.jpg" alt="prova">
+                    <p>
+                        A programação da Semana da Criança, que ocorreu 
+                        do dia 4 a 8 de outubro foi pra lá de animada!
+                    </p>
+                </div>
+
+                <div class="detalhes">
+
+                    <p class="horas">12:00 PM</p>
+                    <p class="classificacao">seminário</p>
+                    <button onclick="mostrarTexto(this)" id="0">Detalhes</button>
+
+                </div>
+
+                <div class="textoCompleto">
+                    Os alunos da Educação Infantil e Ensino Fundamental I 
+                    tiveram uma semana incrível e cheia de atividades, como 
+                    Baladinha Top a fantasia, Confeiteiro Top, Cine Top, Dia 
+                    da Beleza, Cultura Maker e Brinquedos Infláveis.
+                </div>
+
             </div>
-
-            <div class="descricao">
-                <img src="./assects/prova.png" alt="prova">
-                <p>Atividades avaliativas, as mesmas
-                    serão realizadas de forma presencial.
-                </p>
-            </div>
-
-            <div class="detalhes">
-
-                <p class="horas">12:00 PM</p>
-                <p class="classificacao">seminário</p>
-                <button>Detalhes</button>
-
-            </div>
-
-            <div class="textoCompleto">
-
-            </div>
-
-        </div>
-
+        
         <!-- Segundo -->
 
         <div>
@@ -298,7 +306,7 @@
                 </div>
     
                 <div class="descricao">
-                    <img src="./assects/formandos.png" alt="prova">
+                    <img src="./assects/formandos.png" alt="prova" height="146px">
                     <p>Dia dos formandos, 
                         discurso de uma vida mais independente.
                     </p>
@@ -308,15 +316,16 @@
     
                     <p class="horas">09:00 PM</p>
                     <p class="classificacao">seminário</p>
-                    <button>Detalhes</button>
+                    <button onclick="mostrarTexto(this)" id="1">Detalhes</button>
     
                 </div>  
-    
-            </div>
 
                 <div class="textoCompleto">
-
+                    
                 </div>
+
+            </div>
+
     
         </div>
         
@@ -330,7 +339,7 @@
             </div>
 
             <div class="descricao">
-                <img src="./assects/robotica.png" alt="prova">
+                <img src="./assects/robotica.png" alt="prova" height="146px">
                 <p>Iniciativa cientifica, robótica e projeto integrador.
                 </p>
             </div>
@@ -339,7 +348,7 @@
 
                 <p class="horas">09:00 PM</p>
                 <p class="classificacao">seminário</p>
-                <button>Detalhes</button>
+                <button  onclick="mostrarTexto(this)" id="2">Detalhes</button>
 
             </div>
 
@@ -348,19 +357,21 @@
             </div>
 
         </div>
+
+         
         
     </section>
 
     <footer>
         <div class="superior">
-            <img src="./assects/Logo - Branco 1.png" alt="Logo">
+            <a href="./index.html"> <img src="./assects/Logo - Branco 1.png" alt="Logo"></a>
             <ul>
                 <li>
                     <a href="https://api.whatsapp.com/send/?phone=5583991898145&app_absent=0">Fale conosco</a>
                 </li>
 
                 <li>
-                    <a href="">Sobre nós</a>
+                    <a href="./sobre.html">Sobre nós</a>
                 </li>
 
                 <li>
