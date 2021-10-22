@@ -4,7 +4,49 @@
         height: 918px;
     }
 
-    header ul{display: none;}
+    header nav ul{display: none;}
+
+    header .Menu{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 37px;
+        background-color: #670017;
+        height: 100vh;
+        padding-top: 51px;
+
+        position: absolute;
+        width: 375px;
+    }
+
+    header .Menu .nav li{
+        margin-bottom: 35px;
+        text-align: start;
+    }
+
+    header .Menu .nav li a{
+        margin-left: 65px;
+    }
+
+    header .Menu p{
+        margin-top: 51px;
+    }
+
+    header .Menu ul{
+        display: block;
+    }
+
+    .Menu .MenuSocial{
+        display: flex;
+        justify-content: center;
+        margin-top: 82px;
+    }
+
+
+    .Menu .MenuSocial li{
+        margin-right: 38px;
+    }
 
     header nav{
         display: flex;
@@ -252,17 +294,19 @@
         padding: 0;
     }
 
-    footer .linkfooter{
-        border-bottom: white solid 2px;
-    }
+    /* footer .linkfooter{
+        
+    } */
 
     footer .LogoFooter{
-        margin: 58px 130px 30px 150px;
+        margin: 58px 130px 0px 150px;
         
     }
 
     footer .lista1{
         margin: 28px 0 58px 0;
+        border-top: white solid 2px;
+        padding-top: 28px;
     }
 
     footer .lista2{

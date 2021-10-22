@@ -35,16 +35,19 @@ header nav{
     justify-content: center;
 }
 
-header ul{
+header .Menu{
+    display: none;
+}
+
+header nav ul{
     width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    
 }
 
-header .logo{margin-top: 60px;}
+header .logo{margin-top: 60px; }
 
 header .barMenu{ display: none;}
 

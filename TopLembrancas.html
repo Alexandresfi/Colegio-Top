@@ -88,6 +88,50 @@
                     <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
                 </div>
         </nav>
+
+        <div class="Menu">
+            <ul class="nav">
+                <li> <a href="./sobre.html">O top</a> </li>
+
+                <li> <a href="./TopLembrancas.html">Top Lembranças</a> </li>
+
+                <li>
+                    <a href="https://colegiotop.educlass.com.br/">Portal do Aluno</a>
+                </li>
+    
+                <li>
+                    <a href="https://app.mangahigh.com/assignments">Mangahigh</a>
+                </li>
+
+                <li> <img src="./assects/Menumobile.png" alt="linha"> </li>
+
+            </ul>
+
+            <div class="Menu">
+                <p>REDES SOCIAIS</p>
+
+                <ul class="MenuSocial">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCdZvhgVC6XsFvkqveJ-6iZA">
+                            <img src="./assects/redes sociais/youtube.png" alt="youtube">
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="https://www.facebook.com/topensino">
+                            <img src="./assects/redes sociais/facebook.png" alt="facebook">
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="https://www.instagram.com/topsistemadeensino/">
+                            <img src="./assects/redes sociais/instagram.png" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     
         <div class="title">
     
@@ -251,5 +295,16 @@
         }
     </script>
 </body>
+
+<script>
+    document.getElementsByClassName("barMenu")[0].addEventListener("click",()=>{
+    if(document.getElementsByClassName("Menu")[0].style.display != "block"){
+        
+        document.getElementsByClassName("Menu")[0].style.display = "block"
+    }else{
+        document.getElementsByClassName("Menu")[0].style.display = "none"
+    }
+})
+</script>
 
 </html>

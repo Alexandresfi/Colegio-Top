@@ -224,3 +224,11 @@ function mostrarTexto(Element){
     }
 }
 
+document.getElementsByClassName("barMenu")[0].addEventListener("click",()=>{
+    if(document.getElementsByClassName("Menu")[0].style.display != "block"){
+        
+        document.getElementsByClassName("Menu")[0].style.display = "block"
+    }else{
+        document.getElementsByClassName("Menu")[0].style.display = "none"
+    }
+})
