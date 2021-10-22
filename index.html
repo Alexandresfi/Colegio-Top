@@ -6,11 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- COISAS VINDAS DE FORA -->
-    
-    <!-- TERMINA AQUI -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -32,6 +27,13 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       />
+    <!-- TERMINA AQUI -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemobile.css">
+
+    
 
     <title>Top Sistema de Ensino</title>
 </head>
@@ -45,7 +47,7 @@
                 <li> <a href="./TopLembrancas.html">Top Lembranças</a> </li>
             </ul>
 
-                    <a href="#" class="logo">
+                    <a href="./index.html" class="logo">
                         <img src="./assects/Logo - Branco 1.png">
                     </a> 
             <ul>
@@ -57,8 +59,14 @@
                     <a href="https://app.mangahigh.com/assignments">Mangahigh</a>
                 </li>
 
-            </ul>
+                
 
+            </ul>
+                <div class="barMenu"> 
+                    <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+                    <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+                    <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+                </div>
         </nav>
 
         <div class="title">
@@ -265,8 +273,11 @@
             <div class="eventos">
                 <div class="date">
                     <p class="dia">04</p>
-                    <p class="mes">Out 2021</p>
-                    <p class="diaS">segunda</p>
+                    <div>
+                        <p class="mes">Out 2021</p>
+                        <p class="diaS">segunda</p>
+                    </div>
+                    
                 </div>
 
                 <div class="descricao">
@@ -301,8 +312,11 @@
 
                 <div class="date">
                     <p class="dia">20</p>
-                    <p class="mes">Dez 2021</p>
-                    <p class="diaS">segunda</p>
+                    <div>
+                        <p class="mes">Dez 2021</p>
+                        <p class="diaS">segunda</p>
+                    </div>
+                    
                 </div>
     
                 <div class="descricao">
@@ -334,8 +348,11 @@
         <div class="eventos">
             <div class="date">
                 <p class="dia">11</p>
-                <p class="mes">Nov 2021</p>
-                <p class="diaS">Quinta</p>
+                <div>
+                    <p class="mes">Nov 2021</p>
+                    <p class="diaS">Quinta</p>
+                </div>
+                
             </div>
 
             <div class="descricao">
@@ -364,8 +381,9 @@
 
     <footer>
         <div class="superior">
-            <a href="./index.html"> <img src="./assects/Logo - Branco 1.png" alt="Logo"></a>
-            <ul>
+            <a href="./index.html" class="linkfooter"> <img class="LogoFooter" src="./assects/Logo - Branco 1.png" alt="Logo"></a>
+            
+            <ul class="lista1">
                 <li>
                     <a href="https://api.whatsapp.com/send/?phone=5583991898145&app_absent=0">Fale conosco</a>
                 </li>
@@ -377,12 +395,15 @@
                 <li>
                     <a href="https://www.google.com.br/maps/search/top+sistema+de+ensino/@-7.1535582,-34.8411737,17z/data=!3m1!4b1">Localização</a>
                 </li>
+            </ul>
+
+            <ul class="lista2">
 
                 <li>
-                    <img src="./assects/linhaVertical.png" alt="linha vertical">
+                    <img class="hiddenMoble" src="./assects/linhaVertical.png" alt="linha vertical">
                 </li>
 
-                <li>
+                <li class="hiddenMoble">
                     Redes sociais
                 </li>
 
@@ -406,10 +427,6 @@
             </ul>
 
         </div>
-
-        <!-- <div class="line">
-            <img src="./assects/linhaHorizontal.png" alt="linha linha Horizontal">
-        </div> -->
 
         <div class="inferior">
             <p>Todos os direitos reservados por Top Sistema de Ensino</p>

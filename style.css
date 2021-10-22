@@ -44,16 +44,14 @@ header ul{
     
 }
 
-header .logo{
-    margin-top: 60px;
+header .logo{margin-top: 60px;}
+
+header .barMenu{ display: none;}
+
+header .barMenu img{
+    margin-bottom: 9px;
     
 }
-
-/* header ul li{margin: 35px 101px 194px 30px;} */
-
-/* header .segunda li{margin: 35px 101px 194px 116px;} */
-
-/* header .logo{position: absolute; top: 10vh; left: 95vh;} */
 
 header .title{
     text-align: center;
@@ -172,7 +170,7 @@ header .arrow{margin-top: 10vh;}
 
 .first .show p a img{margin-left: 20px;}
 
-.first .show .imgPri{border: 5px solid white;}
+.first .show .imgPri{border: 5px solid white; object-fit: cover;}
 
 .second{
    
@@ -259,7 +257,7 @@ video{
 }
 
 .third .title .bord{
-    width: 608px;
+    width: 600;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
@@ -398,7 +396,6 @@ video{
     align-items: center;
     margin: 47px auto 0 auto;
     
-
 }
 
 .events .eventos .descricao{
@@ -411,12 +408,7 @@ video{
 .events .eventos .descricao img{
     width: 225px;
     height: 146px;
-}
-
-
-.events .descricao p{
-    width: 318px;
-    text-align: left;
+    object-fit: cover;
 }
 
 .events .eventos img{
@@ -462,6 +454,7 @@ video{
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
+    text-align: left;
 }
 
 .events .eventos .detalhes{text-align: center;}
@@ -511,6 +504,7 @@ footer .superior image {
     
 }
 
+
 footer .superior{
     height: 186px;
     border-bottom: white solid 2px;
@@ -553,6 +547,3 @@ footer .inferior #dev{
     font-size: small;   
     
 }
-
-
-

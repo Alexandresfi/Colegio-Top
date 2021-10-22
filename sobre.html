@@ -30,7 +30,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemobile.css">
     <link rel="stylesheet" href="styleabout.css">
+    <link rel="stylesheet" href="styleaboutmobile.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,7 +78,11 @@
             </li>
 
         </ul>
-
+            <div class="barMenu"> 
+                <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+                <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+                <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+            </div>
     </nav>
 
     <div class="title">
@@ -319,26 +325,29 @@
 
 <footer>
     <div class="superior">
-        <a href="./sobre.html"> <img src="./assects/Logo - Branco 1.png" alt="Logo"></a>
-        <ul>
+        <a href="./sobre.html" class="linkfooter"> <img class="LogoFooter" src="./assects/Logo - Branco 1.png" alt="Logo"></a>
+        
+        <ul class="lista1">
             <li>
                 <a href="https://api.whatsapp.com/send/?phone=5583991898145&app_absent=0">Fale conosco</a>
             </li>
 
             <li>
-                <a href="">Sobre nós</a>
+                <a href="./sobre.html">Sobre nós</a>
             </li>
 
             <li>
-                <a
-                    href="https://www.google.com.br/maps/search/top+sistema+de+ensino/@-7.1535582,-34.8411737,17z/data=!3m1!4b1">Localização</a>
+                <a href="https://www.google.com.br/maps/search/top+sistema+de+ensino/@-7.1535582,-34.8411737,17z/data=!3m1!4b1">Localização</a>
             </li>
+        </ul>
+
+        <ul class="lista2">
 
             <li>
-                <img src="./assects/linhaVertical.png" alt="linha vertical">
+                <img class="hiddenMoble" src="./assects/linhaVertical.png" alt="linha vertical">
             </li>
 
-            <li>
+            <li class="hiddenMoble">
                 Redes sociais
             </li>
 
@@ -361,11 +370,9 @@
             </li>
         </ul>
 
+
     </div>
 
-    <div class="line">
-        <!-- <img src="./assects/linhaHorizontal.png" alt="linha linha Horizontal"> -->
-    </div>
 
     <div class="inferior">
         <p>Todos os direitos reservados por Top Sistema de Ensino</p>

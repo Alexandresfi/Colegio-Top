@@ -1,0 +1,283 @@
+@media (max-width: 1043px){
+    
+    header{
+        
+        height: 918px;
+    }
+
+    header ul{display: none;}
+
+    header nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        height: 76px;
+        background: #670017;
+    }
+
+    header .logo{margin-top:0;}
+
+    header .logo img{
+        width: 47px;
+        height: 31px;
+        margin: 22px auto 23px 58px;
+    }
+
+    header .barMenu{  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        margin-right: 24px;
+    }
+
+    header .title div{line-height: 18px;}
+
+    header .title h1{line-height: 49px;}
+
+    header .title p{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+    .first{padding-bottom: 0;}
+
+    .first h1{
+        font-size: 24px;
+        line-height: 36px;
+        padding-top: 78px;
+    }
+
+    .first nav ul button{
+        width: 83px;
+        height: 39px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .first nav ul li{margin-right: 7px;}
+
+    .show{
+        width: 360px;
+        flex-direction: column;
+        
+    }
+
+    .show figure img{width: 350px; object-fit: cover;}
+
+    .show figcaption{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+        margin-top: 20px;   
+    }
+
+    .first .show p{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+
+        width: 340px;
+        height: 296px;
+
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .first .show p a{
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .first .show p a img{
+        width: 50px;
+        margin-left: 20px;
+    }
+
+    .second{
+        flex-direction: column-reverse;
+        padding: 102px;
+        
+    }
+
+    video{
+        width: 347px;
+        height: 239px;
+    }
+
+    .video{
+        top: 103px;
+        width: 347px;
+        height: 237px;
+    }
+
+    .second h5{
+        font-size: 14px;
+        line-height: 19px;
+        margin: 77px auto 0px 40px;
+    }
+
+    .second h2{
+        font-size: 22px;
+        line-height: 33px;
+        margin: 0 0 16px 40px;
+        width: 321px;
+        
+    }
+
+    .second p{
+        font-size: 13px;
+        line-height: 18px;
+        margin-left: 40px;
+        width: 307px;
+    }
+
+    .second button{margin-left: 40px;}
+
+    .third{padding: 65px 37px;}
+
+    .third .title h1{
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    .third .title{
+        flex-direction: column;
+        width: 338px;
+        justify-content: center;
+        
+    }
+
+    .third .title .bord{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .third .title .normal{
+        width: 307px;
+        height: 144px;
+        font-size: 12px;
+        line-height: 16px;
+        
+    }
+
+    .containercarrosel ul li img{
+        height: 170px;
+        width: 259px;
+        margin-right: 14px;
+    }
+
+    .third .projetos{margin-left: 0px;}
+
+    .third .projetos ul li{margin-bottom: 36px;}
+
+    .third .projetos ul{
+        flex-direction: column;
+        margin: 46px 0 63px 0;
+    }
+
+    .events{
+        padding: 85px 27px 81px 27px;
+        height: 204vh;
+    }
+
+    .events .Title{
+        display: block;
+        margin: 0;
+    }
+
+    .events .Title h1{
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    .events .Title button{display: none;}
+
+    .events .eventos{
+        width: 327px;
+        height: 450px;
+        flex-direction: column;
+
+    }
+
+    .events .eventos .date{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin-bottom: 28px;
+    }
+
+    .events .eventos .date .dia{margin-right: 20px;}
+
+    .events .eventos .date .mes, .events .eventos .date .diaS{ text-align: left;}
+
+    .events .eventos .descricao{
+        flex-direction: column; 
+        margin: 0;
+    }
+
+    .events .eventos .descricao img{
+        width: 300px;
+        height: 181px;
+        object-fit: cover;
+    }
+
+    .events .eventos .descricao p{
+        width: 256px;
+        margin-left: 0;
+        margin-top: 21px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .events .eventos .detalhes{
+        display: none;   
+    }
+
+    footer{
+        height: 65vh;
+    }
+
+    footer .superior{
+        display: block;
+        border: none;
+        padding: 0;
+    }
+
+    footer .linkfooter{
+        border-bottom: white solid 2px;
+    }
+
+    footer .LogoFooter{
+        margin: 58px 150px 30px 130px;
+    }
+
+    footer .lista1{
+        margin: 28px 0 58px 0;
+    }
+
+    footer .lista2{
+        border-bottom: white solid 2px;
+        
+    }
+
+    footer .lista2 li{
+        margin-left: -90px;
+        margin-bottom: 30px;
+    }
+
+    footer ul .hiddenMoble{display: none;}
+
+    footer .inferior #dev{padding: 0; text-align: center;}
+    
+    footer .inferior{margin-top: 150px;}
+}

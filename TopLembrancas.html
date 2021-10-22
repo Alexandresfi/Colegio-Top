@@ -30,6 +30,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemobile.css">
     <link rel="stylesheet" href="styleabout.css">
     <link rel="stylesheet" href="styleLembrancas.css">
 
@@ -78,7 +79,11 @@
                 </li>
     
             </ul>
-    
+                <div class="barMenu"> 
+                    <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+                    <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+                    <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+                </div>
         </nav>
     
         <div class="title">
@@ -164,63 +169,63 @@
 
     <footer>
         <div class="superior">
-            <a href="./TopLembrancas.html"> <img src="./assects/Logo - Branco 1.png" alt="Logo"></a>
-            <ul>
+            <a href="./TopLembrancas.html" class="linkfooter"> <img class="LogoFooter" src="./assects/Logo - Branco 1.png" alt="Logo"></a>
+            
+            <ul class="lista1">
                 <li>
                     <a href="https://api.whatsapp.com/send/?phone=5583991898145&app_absent=0">Fale conosco</a>
                 </li>
-    
+
                 <li>
-                    <a href="">Sobre nós</a>
+                    <a href="./sobre.html">Sobre nós</a>
                 </li>
-    
+
                 <li>
-                    <a
-                        href="https://www.google.com.br/maps/search/top+sistema+de+ensino/@-7.1535582,-34.8411737,17z/data=!3m1!4b1">Localização</a>
+                    <a href="https://www.google.com.br/maps/search/top+sistema+de+ensino/@-7.1535582,-34.8411737,17z/data=!3m1!4b1">Localização</a>
                 </li>
-    
+            </ul>
+
+            <ul class="lista2">
+
                 <li>
-                    <img src="./assects/linhaVertical.png" alt="linha vertical">
+                    <img class="hiddenMoble" src="./assects/linhaVertical.png" alt="linha vertical">
                 </li>
-    
-                <li>
+
+                <li class="hiddenMoble">
                     Redes sociais
                 </li>
-    
+
                 <li>
                     <a href="https://www.youtube.com/channel/UCdZvhgVC6XsFvkqveJ-6iZA">
                         <img src="./assects/redes sociais/youtube.png" alt="youtube">
                     </a>
                 </li>
-    
+
                 <li>
                     <a href="https://www.facebook.com/topensino">
                         <img src="./assects/redes sociais/facebook.png" alt="facebook">
                     </a>
                 </li>
-    
+
                 <li>
                     <a href="https://www.instagram.com/topsistemadeensino/">
                         <img src="./assects/redes sociais/instagram.png" alt="instagram">
                     </a>
                 </li>
             </ul>
-    
+
         </div>
-    
-        <div class="line">
-            <!-- <img src="./assects/linhaHorizontal.png" alt="linha linha Horizontal"> -->
-        </div>
-    
+
         <div class="inferior">
             <p>Todos os direitos reservados por Top Sistema de Ensino</p>
             <p>© 2021 Top Ensino</p>
-    
+
             <a id="dev" href="https://portfolioalexandrenascimento.netlify.app/">
                 Desenvolvedor: Alexandre Nascimento
             </a>
         </div>
-    </footer>    
+    </footer>
+
     <script>
         function aviso(){
             alert("Estamos em Desenvolvimento! Caso possa contribuir com imagens, entre em contato com a coordenação")

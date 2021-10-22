@@ -1,0 +1,54 @@
+@media (max-width: 1043px){
+    header{
+        background-position: center;
+        object-fit: cover;
+    }
+
+    header .title p{width: 267px;}
+
+    .fristAbout{height: 2900px;}
+
+    .fristAbout .vertical{
+        height: 647px;
+        top: 310px;
+        left: -49px;
+    }
+
+    .fristAbout .vertical .para{height: 54px;}
+
+    .fristAbout .vertical .base{margin: 13px 19px 13px 33px;}
+
+    .fristAbout .horizontal .campo{
+        margin: 0px 18px 61px 51px;
+        font-size: 26px;
+        font-family: Open Sans;
+    }
+
+    .fristAbout .horizontal .cards{
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 26px;
+        margin-top: 800px;
+    }
+
+    .fristAbout .horizontal .card{
+        margin-top: 26px;
+        margin-right: 0;
+    }
+
+    .salaInvertida .containerflex{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .salaInvertida h1{font-size: 30px;}
+
+    .salaInvertida .card{
+        width: 354px;
+    }
+
+
+
+
+
+}
