@@ -36,6 +36,11 @@
         margin-right: 0;
     }
 
+    .salaInvertida{
+        height: 1147px;
+
+    }
+
     .salaInvertida .containerflex{
         flex-direction: column;
         justify-content: center;
@@ -45,7 +50,62 @@
 
     .salaInvertida .card{
         width: 354px;
+        margin: 0 auto 45px auto;
     }
+
+    .salaInvertida .lineMeio{display: none;}
+
+    .educacao{height: auto;}
+
+    .educacao h1{
+        width: 236px;
+        font-size: 24px;
+        line-height: 33px;
+        padding: 70px 0 0 0;
+        margin: 0px auto 45px auto;
+    }
+
+    .educacao .containerEduca{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        margin: auto;
+    }
+
+    .educacao li{
+        padding: 0;
+        
+    }
+
+    .educacao li .linha{
+        width: 320px;
+        margin: 10px auto;
+    }
+
+    .educacao .teste .numeros{
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .educacao .teste .click{
+        font-size: 16px;
+        line-height: 25px;
+        
+    }
+
+    .educacao ul li .Detalhes{
+        width: 320px;
+        height: auto;
+    }
+
+    .educacao img{
+        width: 358px;
+        height: 304px;
+        margin: 50px 10px 50px 5px;
+    }
+
+
 
 
 
