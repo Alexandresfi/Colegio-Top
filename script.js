@@ -225,7 +225,7 @@ function mostrarTexto(Element){
 }
 
 document.getElementsByClassName("barMenu")[0].addEventListener("click",()=>{
-    if(document.getElementsByClassName("Menu")[0].style.display != "block"){
+    if(document.getElementsByClassName("Menu")[0].style.visibility != "block"){
         
         document.getElementsByClassName("Menu")[0].style.display = "block"
     }else{

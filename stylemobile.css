@@ -45,9 +45,8 @@
     .Menu .MenuSocial{
         display: flex;
         justify-content: center;
-        margin-top: 82px;
+        margin-top: 72px;
     }
-
 
     .Menu .MenuSocial li{
         margin-right: 38px;
