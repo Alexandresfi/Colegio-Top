@@ -1,0 +1,27 @@
+@media (max-width: 1043px){
+    header{
+        background-position: center;
+        object-fit: cover;
+    }
+
+    .album{height: auto; width: auto;}
+
+    .album .lineUm, .album .lineDois{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .album img{
+        object-fit: cover;
+        width: 138px;
+        height: 162px;
+    }
+
+    .album .fotomobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}

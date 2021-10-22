@@ -73,14 +73,12 @@
         margin: auto;
     }
 
-    .educacao li{
-        padding: 0;
-        
-    }
+    .educacao li{padding: 0;}
 
     .educacao li .linha{
         width: 320px;
         margin: 10px auto;
+        background-color: black;
     }
 
     .educacao .teste .numeros{
