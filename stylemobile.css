@@ -185,7 +185,7 @@
 
     .events{
         padding: 85px 27px 81px 27px;
-        height: 204vh;
+        height: 1700px;
     }
 
     .events .Title{
@@ -258,7 +258,8 @@
     }
 
     footer .LogoFooter{
-        margin: 58px 150px 30px 130px;
+        margin: 58px 140px 30px 140px;
+        
     }
 
     footer .lista1{
