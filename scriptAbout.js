@@ -6,31 +6,55 @@ const Quatro = document.getElementsByClassName("Click")[3];
 
 
 Um.addEventListener("click",()=>{
-    document.getElementsByClassName("Detalhes")[0].style.display="block";
-    document.getElementsByClassName("Detalhes")[1].style.display="none";
-    document.getElementsByClassName("Detalhes")[2].style.display="none";
-    document.getElementsByClassName("Detalhes")[3].style.display="none";
+    if(document.getElementsByClassName("Detalhes")[0].style.display !="block"){
+        document.getElementsByClassName("Detalhes")[0].style.display="block";
+        document.getElementsByClassName("Detalhes")[1].style.display="none";
+        document.getElementsByClassName("Detalhes")[2].style.display="none";
+        document.getElementsByClassName("Detalhes")[3].style.display="none";
+    }else{
+        document.getElementsByClassName("Detalhes")[0].style.display="none";
+    }
+
 })
 
 Dois.addEventListener("click",()=>{
-    document.getElementsByClassName("Detalhes")[0].style.display="none";
-    document.getElementsByClassName("Detalhes")[1].style.display="block";
-    document.getElementsByClassName("Detalhes")[2].style.display="none";
-    document.getElementsByClassName("Detalhes")[3].style.display="none";
+
+    if(document.getElementsByClassName("Detalhes")[1].style.display !="block"){
+
+        document.getElementsByClassName("Detalhes")[0].style.display="none";
+        document.getElementsByClassName("Detalhes")[1].style.display="block";
+        document.getElementsByClassName("Detalhes")[2].style.display="none";
+        document.getElementsByClassName("Detalhes")[3].style.display="none";
+    }else{
+        document.getElementsByClassName("Detalhes")[1].style.display="none";
+    }
+    
 })
 
 Tres.addEventListener("click",()=>{
-    document.getElementsByClassName("Detalhes")[0].style.display="none";
-    document.getElementsByClassName("Detalhes")[1].style.display="none";
-    document.getElementsByClassName("Detalhes")[2].style.display="block";
-    document.getElementsByClassName("Detalhes")[3].style.display="none";
+
+    if(document.getElementsByClassName("Detalhes")[2].style.display !="block"){
+        document.getElementsByClassName("Detalhes")[2].style.display="block";
+        document.getElementsByClassName("Detalhes")[1].style.display="none";
+        document.getElementsByClassName("Detalhes")[0].style.display="none";
+        document.getElementsByClassName("Detalhes")[3].style.display="none";
+    }else{
+        document.getElementsByClassName("Detalhes")[2].style.display="none";
+    }
+
 })
 
 Quatro.addEventListener("click",()=>{
-    document.getElementsByClassName("Detalhes")[0].style.display="none";
-    document.getElementsByClassName("Detalhes")[1].style.display="none";
-    document.getElementsByClassName("Detalhes")[2].style.display="none";
-    document.getElementsByClassName("Detalhes")[3].style.display="block";
+
+    if(document.getElementsByClassName("Detalhes")[3].style.display !="block"){
+        document.getElementsByClassName("Detalhes")[3].style.display="block";
+        document.getElementsByClassName("Detalhes")[1].style.display="none";
+        document.getElementsByClassName("Detalhes")[2].style.display="none";
+        document.getElementsByClassName("Detalhes")[0].style.display="none";
+    }else{
+        document.getElementsByClassName("Detalhes")[3].style.display="none";
+    }
+
 })
 
 document.getElementsByClassName("barMenu")[0].addEventListener("click",()=>{
