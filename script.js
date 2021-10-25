@@ -52,7 +52,7 @@ function missao(){
 
         <figure>
             <img src="./assects/alunos3Ano.png" alt="alnos do 3º ano">
-            <figcaption>Alunos(as) do 3 ano</figcaption>
+            <figcaption>Alunos(as) do 3º ano</figcaption>
         </figure>
 
         <p>Visamos abordar a educação de forma ampla, envolvendo não somente a transmissão de conhecimento, mas
