@@ -153,87 +153,113 @@ header .arrow{
 }
 
 .salaInvertida{
-    height: 812px;
-    color: #3E3E3E;
+    height: 773px;
+    color: #FFFFFF;
+    background: #910020;
+    text-align: center;
 }
 
-.salaInvertida .containerflex{
-    display: flex;
-    justify-content: space-evenly;
+.nosmall{
+    height: 1250px;
 }
 
 .salaInvertida h1{
     text-align: center;
-    font-family: Poppins;
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 54px;
 
-    margin: 64px auto 100px auto;
+    margin: 0px auto 190px auto;
+    padding-top: 64px;
 }
 
-.salaInvertida h1 span{
-    background: #3E3E3E;
-    color: white;
-
-    font-weight: 300;
-    padding: 7px;
-}
-
-.salaInvertida .card{
-    width: 434px;
-    height: 397px;
-    box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.25);
-}
-
-.salaInvertida .trad h3, .salaInvertida .inverti h3 {
-    text-align: center;
-    margin-top: 37px;
-}
-
-.salaInvertida .descri{
-    width: 349px;
-    margin: 0px auto 62px auto;
-}
-
-.salaInvertida .black{
-    background: #3E3E3E;
-    color: white;
-}
-
-.salaInvertida .resumo{
-    height: 170px;
-    padding: 30px 43px;
+.salaInvertida button{
+    width: 315px;
+    height: 77px;
+    background: #FFFFFF;
+    color: #910020;
     margin: auto;
+    box-shadow: 0px 4px 46px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    border: none;
+    margin-bottom: 100px;
 }
 
-.salaInvertida .resumo h4{
-    margin-bottom: 11px;
+.showDetails{display: none;}
+
+.showDetails .details{
+    margin-left: 35px;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.25));
 }
 
-.salaInvertida .containerflex .inverti{
-    background: #3E3E3E;
-    color: white;
+.showDetails .cantinho{
+    position: relative;
+    right: 55px;
+    bottom: 20px;
 }
 
-.salaInvertida .containerflex .card .white{
-    background-color: white;
-    color: #3E3E3E;
+.showDetails #all{
+    display: none;
 }
 
-.salaInvertida .card .lineblack{
-    width: 349px;
-    height: 1px;
-    margin: 28px auto 23px auto;
-    border: black 1px solid;
+.showDetails .line{
+    background-image: url(./assects/sobre/linhaHorizontal.png);
+    background-repeat: no-repeat;
+    height: 2px;
+    margin: 8px 0 15px 0;
 }
 
-.salaInvertida .card .linewhite{
-    width: 349px;
-    height: 1px;
-    margin: 28px auto 23px auto;
-    border: white 1px solid;
+.showDetails .description{
+    width: 315px;
+    margin: auto;
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+.showDetails .description h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.showDetails .description p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.salaInvertida .containerflex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;   
+    text-align: center;
+}
+
+.salaInvertida figcaption div{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.salaInvertida figcaption p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    
 }
 
 .educacao{

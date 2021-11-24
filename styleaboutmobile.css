@@ -37,8 +37,25 @@
     }
 
     .salaInvertida{
-        height: 1147px;
+        height: 773px;
+    }
 
+    .nosmall{
+        height: 1400px;
+    }
+
+    .showDetails .details{
+        margin-left: 36px;
+        width: 300px
+    }
+
+    .showDetails .cantinho{
+        right: 40px;
+        bottom: 10px;
+    }
+
+    .showDetails .description{
+        width: 300px;
     }
 
     .salaInvertida .containerflex{
@@ -46,14 +63,12 @@
         justify-content: center;
     }
 
-    .salaInvertida h1{font-size: 30px;}
+    .salaInvertida h1{font-size: 24px;}
 
-    .salaInvertida .card{
-        width: 354px;
-        margin: 0 auto 45px auto;
+    .salaInvertida figure{
+        margin-bottom: 30px;
     }
 
-    .salaInvertida .lineMeio{display: none;}
 
     .educacao{height: auto;}
 

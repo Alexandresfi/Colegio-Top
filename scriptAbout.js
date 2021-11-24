@@ -2,6 +2,7 @@ const Um = document.getElementsByClassName("Click")[0];
 const Dois = document.getElementsByClassName("Click")[1];
 const Tres = document.getElementsByClassName("Click")[2];
 const Quatro = document.getElementsByClassName("Click")[3];
+const showAll = document.getElementById('showAll')
 
 
 
@@ -63,5 +64,15 @@ document.getElementsByClassName("barMenu")[0].addEventListener("click",()=>{
         document.getElementsByClassName("Menu")[0].style.display = "block"
     }else{
         document.getElementsByClassName("Menu")[0].style.display = "none"
+    }
+})
+
+showAll.addEventListener('click',()=>{
+    if(document.getElementsByClassName("showDetails")[0].style.display != "block"){
+        document.getElementsByClassName("showDetails")[0].style.display = "block"
+        document.getElementsByClassName("salaInvertida")[0].classList.toggle("nosmall")
+    }else{
+        document.getElementsByClassName("showDetails")[0].style.display = "none"
+        document.getElementsByClassName("salaInvertida")[0].classList.toggle("nosmall")
     }
 })

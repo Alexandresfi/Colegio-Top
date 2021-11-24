@@ -104,7 +104,7 @@ function valores(){
 
         <p> Queremos ser uma Escola, que promova uma cultura de liberdade e que esteja atenta à 
             diversidade de todos os membros da comunidade educativa. Queremos ser uma Escola que 
-            contribua para a autonomização intelectual das crianças e adolescentes.
+            contribua para a autonomia intelectual das crianças e adolescentes.
             <br> <br><br>
             <a href="./sobre.html">Ler mais <img src="./assects/arrow rigth.png" alt="arrow rigth"> </a>
         </p>
