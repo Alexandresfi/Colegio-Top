@@ -16,7 +16,7 @@
         height: 100vh;
         padding-top: 51px;
 
-        position: absolute;
+        position:sticky;
         width: 395px;
     }
 
