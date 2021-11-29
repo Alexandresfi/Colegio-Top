@@ -13,10 +13,10 @@
         font-size: 32px;
         line-height: 37px;
         background-color: #670017;
-        height: 100vh;
         padding-top: 51px;
-
-        position:sticky;
+        
+        position: sticky;
+        top: 0;
         width: 395px;
     }
 
