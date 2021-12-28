@@ -15,8 +15,7 @@
         background-color: #670017;
         padding-top: 51px;
         
-        position: sticky;
-        top: 0;
+        height: 100vh;
         width: 395px;
     }
 
@@ -75,8 +74,37 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
-
         margin-right: 24px;
+        transition: .3s;
+    }
+
+    header .barMenu .lineMenu{
+        border-top: 2px solid;
+        width: 40px; 
+        position: relative;       
+    }
+
+    header .barMenu .lineMenu::after, .lineMenu::before{
+        content: '';
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: white;
+        margin-top: 5px;
+        position: relative;
+    }
+
+    header .barMenu.active .lineMenu{
+        border-top-color: transparent;
+    }
+
+    header .barMenu.active .lineMenu::before{
+        transform: rotate(135deg);
+    }
+
+    header .barMenu.active .lineMenu::after{
+        transform: rotate(-135deg);
+        top: -7px;
     }
 
     header .title div{line-height: 18px;}

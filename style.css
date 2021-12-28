@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 
 body{
@@ -51,11 +50,6 @@ header nav ul{
 header .logo{margin-top: 60px; }
 
 header .barMenu{ display: none;}
-
-header .barMenu img{
-    margin-bottom: 9px;
-    
-}
 
 header .title{
     text-align: center;

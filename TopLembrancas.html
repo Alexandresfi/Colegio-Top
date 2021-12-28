@@ -83,9 +83,9 @@
     
             </ul>
                 <div class="barMenu"> 
-                    <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
-                    <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
-                    <img src="./assects/ParteDoMenu.png" alt="Menu Bar">
+                    <div class="lineMenu">
+
+                    </div>
                 </div>
         </nav>
 
@@ -298,6 +298,7 @@
 
 <script>
     document.getElementsByClassName("barMenu")[0].addEventListener("click",()=>{
+        document.getElementsByClassName("barMenu")[0].classList.toggle('active')
     if(document.getElementsByClassName("Menu")[0].style.display != "block"){
         
         document.getElementsByClassName("Menu")[0].style.display = "block"
