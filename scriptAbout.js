@@ -63,7 +63,6 @@ document.getElementsByClassName("barMenu")[0].addEventListener("click",()=>{
     document.getElementsByClassName("barMenu")[0].classList.toggle("active")
 
     if(document.getElementsByClassName("Menu")[0].style.display != "block"){
-        
         document.getElementsByClassName("Menu")[0].style.display = "block"
     }else{
         document.getElementsByClassName("Menu")[0].style.display = "none"
