@@ -33,6 +33,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,500&display=swap"
         rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
     <!-- TERMINA AQUI -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -218,21 +219,31 @@
 
         </div>
 
-        <div class="containercarrosel">
-            <ul id="aquikk">
-                <li> <img class="ultima" src="./assects/Projetos/projeto Biológicas.jpg" alt=" biotecnologia"> </li>
-                <li> <img class="ultima" src="./assects/Projetos/projeto robotica girls.jpeg" alt="Linguagens"> </li>
-                <li> <img src="./assects/Projetos/Projeto Engenharias.jpeg" alt="Engenharias"> </li>
-                <li> <img src="./assects/Projetos/projeto.jpg" alt="projetos" id="ultima"> </li>
-            </ul>
-
-            <div class="button">
-                <button id="left" onclick="rolarEsquerda()"> <img src="./assects/arrow rigth.png" alt="arrow left" class="left"> </button>
-                <button  onclick="rolarDireita()"> <img src="./assects/arrow rigth.png" alt="arrow rigth"> </button>
+        <div class="containerCarrosel c-carousel c-carousel--simple">
+            <div class="gallery-wrapper">
+                
+                <div class="gallery c-carousel__slides js-carousel--simple">
+                    <img src="./assects/Projetos/projeto.jpg" alt="image-1" class="c-carousel__slide items current-item">
+                    <img src="/assects/Projetos/Projeto Engenharias.jpeg" alt="image-2" class="c-carousel__slide items current-item">
+                    <img src="./assects/Projetos/projeto robotica girls.jpeg" alt="image-3" class="c-carousel__slide items current-item">
+                    <img src="./assects/Projetos/projeto Biológicas.jpg" alt="image-4" class="c-carousel__slide items current-item">
+                    <img src="./assects/Projetos/projeto.jpg" alt="image-5" class="c-carousel__slide items current-item">
+                    <img src="/assects/Projetos/Projeto Engenharias.jpeg" alt="image-6" class="c-carousel__slide items current-item">
+                    <img src="./assects/Projetos/projeto Biológicas.jpg" alt="image-7" class="c-carousel__slide items current-item">
+                </div>
+                
+                <div class="button">
+                    <button class="js-carousel--simple-prev" aria-label="Previous"> <img src="./assects/arrow rigth.png" alt="arrow left" class="left"> </button>
+                    <button class="js-carousel--simple-next" aria-label="Next"> <img src="./assects/arrow rigth.png" alt="arrow rigth"> </button>
+                </div>
+                <div class="js-carousel--simple-dots"></div>
             </div>
+
         </div>
 
         <div class="projetos">
+
+            
             <ul>
                 <li>
                     <div>
@@ -487,6 +498,7 @@
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 
     <script src="./script.js"></script>
 </body>

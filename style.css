@@ -280,22 +280,23 @@ video{
     background-color: #670017;
 }
 
-.containercarrosel ul{
-    width: calc(100vw - 118px);
+.containercarrosel {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: end;
+
     overflow: hidden;
-    
-    
+    max-width: 1312px;
+    margin: auto;
 }
-.containercarrosel ul li img{
-    margin-right: 40px;
+
+.containercarrosel .container-image img{
     height: 260px;
     width: 400px;
     object-fit: cover;
 }
 
-.containercarrosel .button{
+.containerCarrosel .button{
     text-align: end;
     margin-top: 45px;
 }
@@ -544,4 +545,29 @@ footer .inferior #dev{
     padding-left: 82vw;
     font-size: small;   
     
+}
+
+.containerCarrosel {
+    position: relative;
+    padding: 15px;
+    
+    margin: 0 auto;
+    max-width: 1395px;
+}
+
+.items {
+    height: 260px;
+    max-width: 400px;
+    margin: 0 10px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.containerCarrosel .button button {
+    background-color: transparent;
+    border: none;
+}
+
+.containerCarrosel .button button .left{
+    transform: rotate(180deg);
+    margin-right: 64px;
 }
