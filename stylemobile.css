@@ -330,6 +330,11 @@
         display: none;
     }
 
+    .glider-dots {
+        margin-top: 10px;
+        display: flex;
+    }
+
     /* footer .linkfooter{
         
     } */

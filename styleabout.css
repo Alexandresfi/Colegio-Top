@@ -152,6 +152,10 @@ header .arrow{
     font-weight: bold;
 }
 
+#showAll {
+    cursor: pointer;
+}
+
 .salaInvertida{
     height: 773px;
     color: #FFFFFF;
