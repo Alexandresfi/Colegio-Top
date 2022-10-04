@@ -326,6 +326,15 @@
         padding: 0;
     }
 
+    .button {
+        display: none;
+    }
+
+    .glider-dots {
+        margin-top: 10px;
+        display: flex;
+    }
+
     /* footer .linkfooter{
         
     } */

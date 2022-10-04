@@ -138,10 +138,9 @@ SaibaMais[0].addEventListener("click", ()=>{
         if(document.getElementsByClassName("mostrarResto")[0].innerHTML === "..."){
 
             document.getElementsByClassName("mostrarResto")[0].innerHTML=`
-                estamos inseridos em uma era digital, ela se faz necessária na atualidade. 
-                A robótica trabalhada em sala de aula através dos projetos, contribuem também 
-                para a estimulação da criatividade e a capacidade de resolução de demandas complexas, 
-                e isso auxilia no desempenho escolar.`
+                próprios jogos, histórias e animações, gerando assim diversas 
+                habilidades como trabalho em equipe, resoluções de problemas, 
+                raciocínio lógico, além de habilidade socioemocionais.`
                 SaibaMais[0].innerHTML = `<span class="saiba">Esconder</span>`
         }else {
             document.getElementsByClassName("mostrarResto")[0].innerHTML = "..."
@@ -188,14 +187,9 @@ SaibaMais[3].addEventListener("click", ()=>{
     if(document.getElementsByClassName("mostrarResto")[3].innerHTML === "..."){
 
         document.getElementsByClassName("mostrarResto")[3].innerHTML=`
-        para ingressarem nessas áreas.
-        O Projeto atua trazendo atividades práticas, nas quais os alunos adotam conceitos da Matemática, 
-        Física e Química para despertar ações como: CRIAR, RESOLVER, PROJETAR, CONSTRUIR, EXECUTAR E  MELHORAR.
-        Esse projeto trabalha em sala de aula prática das engenharias, tais como: 
-        <br>
-        Concepção, construção e teste de protótipos; <br>
-        Desenho e projeto; <br>
-        Análise de conceitos físicos (como resistência) em testes de cargas.<br>
+         Presidência da República, levando a uma melhor compreensão acerca das propostas em questão. Estão sendo produzidos recursos interativos 
+         para dar maior 
+         visibilidade ao debate de programas de governo, qualificando assim o debate político..<br>
         `
             SaibaMais[3].innerHTML = `<span class="saiba">Esconder</span>`
     }else {
@@ -235,3 +229,45 @@ document.getElementsByClassName("barMenu")[0].addEventListener("click",()=>{
         document.getElementsByClassName("Menu")[0].style.display = "none"
     }
 })
+
+var $simpleCarousel = document.querySelector(".js-carousel--simple");
+
+new Glider($simpleCarousel, {
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  draggable: true,
+  dots: ".js-carousel--simple-dots",
+  arrows: {
+    prev: ".js-carousel--simple-prev",
+    next: ".js-carousel--simple-next",
+  },
+});
+
+const $responsiveCarousel = document.querySelector(".js-carousel--responsive");
+ 
+new Glider($responsiveCarousel, {
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  draggable: true,
+  dots: ".js-carousel--responsive-dots",
+  arrows: {
+    prev: ".js-carousel--responsive-prev",
+    next: ".js-carousel--responsive-next",
+  },
+  responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      },
+    },
+  ],
+});

@@ -33,6 +33,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,500&display=swap"
         rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
     <!-- TERMINA AQUI -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -218,30 +219,39 @@
 
         </div>
 
-        <div class="containercarrosel">
-            <ul id="aquikk">
-                <li> <img class="ultima" src="./assects/Projetos/projeto Biológicas.jpg" alt=" biotecnologia"> </li>
-                <li> <img class="ultima" src="./assects/Projetos/projeto robotica girls.jpeg" alt="Linguagens"> </li>
-                <li> <img src="./assects/Projetos/Projeto Engenharias.jpeg" alt="Engenharias"> </li>
-                <li> <img src="./assects/Projetos/projeto.jpg" alt="projetos" id="ultima"> </li>
-            </ul>
-
-            <div class="button">
-                <button id="left" onclick="rolarEsquerda()"> <img src="./assects/arrow rigth.png" alt="arrow left" class="left"> </button>
-                <button  onclick="rolarDireita()"> <img src="./assects/arrow rigth.png" alt="arrow rigth"> </button>
+        <div class="containerCarrosel c-carousel c-carousel--simple">
+            <div class="gallery-wrapper">
+                
+                <div class="gallery c-carousel__slides js-carousel--simple">
+                    <img src="./assects/Projetos/projeto-1.jpeg" alt="image-1" class="c-carousel__slide items current-item">
+                    <img src="/assects/Projetos/projeto-2.jpeg" alt="image-2" class="c-carousel__slide items current-item">
+                    <img src="./assects/Projetos/projeto-3.jpeg" alt="image-3" class="c-carousel__slide items current-item">
+                    <img src="./assects/Projetos/projeto-4.jpeg" alt="image-4" class="c-carousel__slide items current-item">
+                    <img src="./assects/Projetos/projeto-5.jpeg" alt="image-5" class="c-carousel__slide items current-item">
+                    <img src="/assects/Projetos/projeto-6.jpeg" alt="image-6" class="c-carousel__slide items current-item">
+                    <img src="./assects/Projetos/projeto-7.jpeg" alt="image-7" class="c-carousel__slide items current-item">
+                </div>
+                
+                <div class="button">
+                    <button class="js-carousel--simple-prev" aria-label="Previous"> <img src="./assects/arrow rigth.png" alt="arrow left" class="left"> </button>
+                    <button class="js-carousel--simple-next" aria-label="Next"> <img src="./assects/arrow rigth.png" alt="arrow rigth"> </button>
+                </div>
+                <div class="js-carousel--simple-dots"></div>
             </div>
+
         </div>
 
         <div class="projetos">
+
+            
             <ul>
                 <li>
                     <div>
-                        <div class="tituloPro">Robótica</div>
+                        <div class="tituloPro">Programação</div>
                         <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
                         <p class="text">
-                            O projeto de robótica educacional atua para despertar o uso tecnológico 
-                            em sala de aula, como também no dia a dia do estudante, tendo em vista 
-                            que <span class="mostrarResto">...</span> <span class="saiba">Saiba mais</span>
+                            No projeto de programação os alunos são motivados a pensar de 
+                            maneira criativa através dos códigos, criando seus <span class="mostrarResto">...</span> <span class="saiba">Saiba mais</span>
                         </p>
                     </div>
                 </li>
@@ -272,11 +282,13 @@
             <ul>
                 <li>
                     <div>
-                        <div class="tituloPro">Engenharias</div>
+                        <div class="tituloPro">Ciência política</div>
                         <div> <img src="./assects/line.png" alt="line" width="280px"> </div>
                         <p class="text">
-                            O objetivo principal desse projeto é mostrar aos alunos como as áreas de exatas e de engenharia
-                             podem estar inseridas em situações rotineiras por elas vivenciadas, e incentivá-la  <span class="mostrarResto">...</span> <span class="saiba">Saiba mais</span>
+                            O projeto intitula-se "Projetos para o Brasil". O objetivo principal desse projeto é mostrar aos alunos como 
+                            as áreas de exatas e de engenharia
+                             podem estar inseridas em situações rotineiras por eTrabalhamos com os projetos preparados pelas 
+                             candidaturas à <span class="mostrarResto">...</span> <span class="saiba">Saiba mais</span>
                         </p>
                     </div>
 
@@ -357,35 +369,33 @@
         <div>    
             <div class="eventos">
                     <div class="date">
-                        <p class="dia">04</p>
+                        <p class="dia">26</p>
                         <div>
-                            <p class="mes">Out 2021</p>
-                            <p class="diaS">segunda</p>
+                            <p class="mes">Set 2022</p>
+                            <p class="diaS">Segunda</p>
                         </div>
                         
                     </div>
     
                     <div class="descricao">
-                        <img src="./assects/Top Lembranças/2021/semana da criança.jpg" alt="prova">
+                        <img src="./assects/festividades/jogos-internos-2022.jpeg" alt="jogos internos 2022">
                         <p>
-                            A programação da Semana da Criança, que ocorreu 
-                            do dia 4 a 8 de outubro foi pra lá de animada!
+                            Foi com muito entusiasmo que as equipes do Colégio Top deram início aos Jogos Internos 2022!
                         </p>
                     </div>
     
                     <div class="detalhes">
     
-                        <p class="horas">12:00 PM</p>
-                        <p class="classificacao">seminário</p>
-                        <button>Detalhes</button>
+                        <p class="horas">07:40 PM</p>
+                        <p class="classificacao">Jogos</p>
+                        <button onclick="mostrarTexto(this)" id="1">Detalhes</button>
     
                     </div>
     
                     <div class="textoCompleto">
-                        Os alunos da Educação Infantil e Ensino Fundamental I 
-                        tiveram uma semana incrível e cheia de atividades, como 
-                        Baladinha Top a fantasia, Confeiteiro Top, Cine Top, Dia 
-                        da Beleza, Cultura Maker e Brinquedos Infláveis.
+                        Disputas como handebol, vôlei, futsal, raciocínio lógico, cubo mágico, soletrando e 
+                        baleado marcaram esse momento com
+                        muita emoção e espírito esportivo. Confira os melhores momentos!
                     </div>
     
             </div>
@@ -487,6 +497,7 @@
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 
     <script src="./script.js"></script>
 </body>
