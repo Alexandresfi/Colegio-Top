@@ -583,3 +583,23 @@ footer .inferior #dev{
 .glider-dots {
     display: none;
 }
+
+.containercarrosel ul{
+    width: calc(100vw - 118px);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+
+}
+.containercarrosel #aquikk li img{
+    margin-right: 40px;
+    height: 260px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.containercarrosel .button{
+    text-align: end;
+    margin-top: 45px;
+}
