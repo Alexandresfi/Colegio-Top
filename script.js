@@ -196,6 +196,22 @@ SaibaMais[3].addEventListener("click", ()=>{
         document.getElementsByClassName("mostrarResto")[3].innerHTML = "..."
         SaibaMais[3].innerHTML = `<span class="saiba">Saiba mais</span>`
     }
+}
+)
+SaibaMais[4].addEventListener("click", ()=>{
+
+    if(document.getElementsByClassName("mostrarResto")[4].innerHTML === "..."){
+
+        document.getElementsByClassName("mostrarResto")[4].innerHTML=`
+         lançamento horizontal e oblíquo. Estudam
+                            também a parte de química
+                            relacionada aos combustíveis utilizados por foguetes ...<br>
+        `
+            SaibaMais[4].innerHTML = `<span class="saiba">Esconder</span>`
+    }else {
+        document.getElementsByClassName("mostrarResto")[4].innerHTML = "..."
+        SaibaMais[4].innerHTML = `<span class="saiba">Saiba mais</span>`
+    }
 })
 
 document.getElementById("Todos").addEventListener("click", ()=>{
@@ -271,3 +287,9 @@ new Glider($responsiveCarousel, {
     },
   ],
 });
+
+window.addEventListener('load', function(){
+  new Glider(document.querySelector($simpleCarousel), {
+    setting: setting-value
+  })
+})

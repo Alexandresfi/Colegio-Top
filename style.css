@@ -584,7 +584,7 @@ footer .inferior #dev{
     display: none;
 }
 
-.containercarrosel ul{
+.containercarrosel #aquikk{
     width: calc(100vw - 118px);
     display: flex;
     flex-direction: row;
