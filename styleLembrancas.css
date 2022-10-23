@@ -43,3 +43,7 @@ header{
     display: flex;
     
 }
+
+.lineDois img {
+    border-radius: 10px;
+}
