@@ -121,12 +121,15 @@ function anuncios(){
     <div class="show">
 
         <figure>
-            <img src="./assects/Primeira/colegiotop.jpeg" alt="visão" width="199px" heigth="232px">
+            <img src="./assects/Primeira/Colegiorio.jpg" alt="visão" width="199px" heigth="232px">
             <figcaption>Colégio Top </figcaption>
         </figure>
 
-        <p> Matrículas abertas 2022! Primeira Escola 4.0 da Paraíba!
-            <br> <br><br>
+        <p class="anuncioText"> O Top Sistema de Ensino, fundando em 2014, situado nos Bancários, tem a missão de transformar 
+            e inspirar vidas, por meio de um projeto pedagógico sintonizado com as demandas do novo mundo.
+            O Top vem com o sistema de ensino, onde crianças e adolescentes têm acesso imutável à conhecimentos 
+            que irão transformar suas vidas no mundo atual.
+            <br> <br>
             <a href="./sobre.html">Ler mais <img src="./assects/arrow rigth.png" alt="arrow rigth"> </a>
         </p>
     

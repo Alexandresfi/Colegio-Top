@@ -157,6 +157,10 @@ header .arrow{margin-top: 10vh;}
     padding: 60px 20px;
 }
 
+.first .show .anuncioText {
+    padding: 10px 20px;
+}
+
 .first .show p a{
     font-weight: bold;
     font-size: 16px;
