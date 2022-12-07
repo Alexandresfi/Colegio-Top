@@ -24,4 +24,8 @@
 
     }
 
+    .containerAlbum img {
+        max-width: 18rem !important;
+    }
+
 }
