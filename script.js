@@ -230,7 +230,7 @@ document.getElementById("Todos").addEventListener("click", ()=>{
 
 function mostrarTexto(Element){
 
-    if(document.getElementsByClassName("textoCompleto")[Element.id].style.display !="block"){
+    if(document.getElementsByClassName("textoCompleto")[Element.id].style.display !=="block"){
         document.getElementsByClassName("textoCompleto")[Element.id].style.display ="block"
     }else{
         document.getElementsByClassName("textoCompleto")[Element.id].style.display ="none"

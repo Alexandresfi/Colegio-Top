@@ -38,8 +38,8 @@
 }
 
 .containerAlbum img {
-    max-width: 25rem;
-    width: 100%;
+    max-width: 24rem;
+    width: 100vw;
     height: 25rem;
     object-fit: cover;
 
