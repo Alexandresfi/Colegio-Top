@@ -1,9 +1,19 @@
-# Colegio-Top
+<h1 align="center" >Escola Top Sistema de Ensino</h1>
 
-<p> Site desenvolvido com em:</p>
--  <strong> HTML </strong> <br>
--  <strong> CSS </strong> <br>
--  <strong> Javascript </strong> <br> 
--  <strong> Figma </strong>
+<h2> 
+   Projeto desenvolvido para instituição de ensino
+ </h2>
+ 
+ <p> 
+    Site atualmente encontra-se finalizado. Para visita-lo <a href="https://topsistemadeensino.com/"> acesse </a> <br>
+    O cliente liberou deixar o código fonte no meu repositório.
+     layout inspirado do figma.
+ </p>
 
-<p> Projeto desenvolvido para um colégio de rede particular.</p> <a href="https://topsistemadeensino.com/"> Ver site </a> 
+<h2> 
+ 💻 tecnologias / bibliotecas :
+</h2>
+
+- <strong> `HTML` <strong>
+- <strong> `CSS` <strong>
+- <strong> `Javascript` <strong>
